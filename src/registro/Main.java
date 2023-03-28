@@ -21,8 +21,7 @@ public class Main {
       correcto = ValidarCampos.validarCampos(usuario, correo, password);
     } while (!correcto);
     System.out.println(
-      "usuario:" + usuario + " correo:" + correo + " password:" + password
-    );
+        "usuario:" + usuario + " correo:" + correo + " password:" + password);
     System.out.println("El registro se ha realizado con éxito");
     teclat.close();
   }
