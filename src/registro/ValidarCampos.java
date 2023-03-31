@@ -1,9 +1,11 @@
-package registro;
-
 import java.util.Random;
 import java.util.Scanner;
 
 public class ValidarCampos {
+	
+	private String nombreUsuario;
+	private String email;
+	private String password;
 
   public static boolean validarCampos(
     String nombreUsuario,
